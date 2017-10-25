@@ -17,3 +17,36 @@ int SMTA::greenLed(){
 int SMTA::amberLed(){
   return 1;}
 
+int SMTA::getBatteryStatus(){
+  return 1;
+  }
+
+int SMTA::getICharge(){
+  return 1;
+ }
+int SMTA::getVee(){
+  return 1;
+}
+
+int SMTA::getVcc(){
+  return 1;
+}
+
+int SMTA::powerDown(){
+  return 1;
+}
+
+int SMTA::networkReset(){
+  return 1;
+}
+int SMTA::userInterupt(){
+  return 1;
+
+}
+
+char * thermalArray(){
+  return "TEST DATA";
+}
+
+
+

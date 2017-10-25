@@ -34,15 +34,16 @@ int greenLed(void); //Turn green LED on or off
 int amberLed(void); //Turn amber LED on or off
 
 int getBatteryStatus(); //Return battery status (Full, Charging, Error)
-int getIcharge();//Return battery charging current
+int getICharge();//Return battery charging current
 
 int getVee();//Return (1/2)*Vee voltage
 int getVcc(); //Return (1/2)*Vcc voltage
-int powerdown(); //Tell supervisor to cut power
+int powerDown(); //Tell supervisor to cut power
 
 int networkReset(); //Function to run at resetSwitch interupt
 int userInterupt(); //Function to run at powerSwitch interupt
 
+char * thermalArray();
 };
 
 #endif
