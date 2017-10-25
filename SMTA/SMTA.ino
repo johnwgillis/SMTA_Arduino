@@ -1,3 +1,4 @@
+#include "SMTA_SDK.cpp"
 // SMTA Code
 // Create on: October 25, 2017
 // Author: John Gillis (jgillis@jgillis.com)
