@@ -2,18 +2,23 @@
 
 #define LED1 23
 #define LED2 22
-#define resetSwitch 21
-#define powerSwitch
-#define kill 17
+#define RESETSWITCH 21
+#define POWERSWITCH 5
+#define KILL 17
 #define STAT1 18
 #define STAT2 19
-#define VeeSense 27
-#define VccSense 25
-#define ISense 26
-#define gridEyeInt 32
-#define gridEyeSCLv 35
-#define gridEyeSDA 34
+#define VEESENSE 27
+#define VCCSENSE 25
+#define ISENSE 26
+#define GRIDEYEINT 32
+#define GRIDEYESCL 35
+#define GRIDEYESDA 34
 
+
+class SMTA{
+private: 
+
+public:
 int greenLed(); //Turn green LED on or off
 int amberLed(); //Turn amber LED on or off
 
@@ -27,5 +32,5 @@ int powerdown(); //Tell supervisor to cut power
 int networkReset(); //Function to run at resetSwitch interupt
 int userInterupt(); //Function to run at powerSwitch interupt
 
-
+};
 
