@@ -26,9 +26,9 @@ Date Created: October 25, 2017
 #define VCC_SENSE_PIN  25
 #define I_SENSE_PIN  26
 
-#define GRIDEYE_INT_PIN  32
-#define GRIDEYE_SCL_PIN  35
-#define GRIDEYE_SDA_PIN  34
+#define GRIDEYE_INT_PIN  18
+#define GRIDEYE_SCL_PIN  19
+#define GRIDEYE_SDA_PIN  21
 
 
 class SMTA{
